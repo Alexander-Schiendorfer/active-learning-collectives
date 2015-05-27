@@ -3,7 +3,7 @@ Source code for the experiments presented in a SASO paper
 
 The evaluation, analysis and plots for the measured data can be found 
 at https://github.com/ChrislS/active_learning_for_abstract_models_of_collectives .
-==========================
+
 
 This readme file explains all necessary steps to execute
 experiments presented in the SASO paper.
@@ -32,6 +32,7 @@ all publicly availablle source code.
 
 -> if interested, go to http://www-01.ibm.com/software/commerce/optimization/cplex-optimizer/
    for a trial version and/or academic/student licenses
+   
    Install and include relevant CPLEX directories to Path Variable when asked
 ==================================
 
