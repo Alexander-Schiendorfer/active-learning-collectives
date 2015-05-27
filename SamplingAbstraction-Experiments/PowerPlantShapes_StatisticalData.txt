@@ -1,0 +1,127 @@
+May2012-4000KW:
+Statistical power plant data for SchwabenShape/May2012-4000KW/schwaben.2012.05.4000kw.wasser.shp:
+number = 692
+minMaxOutput = 2.0
+maxMaxOutput = 7800.0
+meanMaxOutput = 264.63005780346845
+sdMaxOutput = 746.5480030325142
+Statistical power plant data for SchwabenShape/May2012-4000KW/schwaben.2012.05.4000kw.wind.shp:
+number = 52
+minMaxOutput = 0.0
+maxMaxOutput = 2200.0
+meanMaxOutput = 1074.4673076923077
+sdMaxOutput = 681.911539809925
+Statistical power plant data for SchwabenShape/May2012-4000KW/schwaben.2012.05.4000kw.solar.shp:
+number = 2465
+minMaxOutput = 0.40857142857142864
+maxMaxOutput = 15635.95
+meanMaxOutput = 2807.2365285424517
+sdMaxOutput = 3595.529665418864
+Statistical power plant data for SchwabenShape/May2012-4000KW/schwaben.2012.05.4000kw.biomasse.shp:
+number = 845
+minMaxOutput = 3.0
+maxMaxOutput = 17374.0
+meanMaxOutput = 368.7183431952665
+sdMaxOutput = 1324.6161426295484
+Statistical power plant data for SchwabenShape/May2012-4000KW/schwaben.2012.05.4000kw.gas.shp:
+number = 26
+minMaxOutput = 1.0
+maxMaxOutput = 2070.0
+meanMaxOutput = 275.8846153846154
+sdMaxOutput = 494.80649364559287
+
+May2012-2000KW:
+Statistical power plant data for SchwabenShape/May2012-2000KW/schwaben.2012.05.2000kw.wasser.shp:
+number = 312
+minMaxOutput = 4.0
+maxMaxOutput = 50405.0
+meanMaxOutput = 885.320512820513
+sdMaxOutput = 3198.2870153619
+Statistical power plant data for SchwabenShape/May2012-2000KW/schwaben.2012.05.2000kw.wind.shp:
+number = 33
+minMaxOutput = 4.4
+maxMaxOutput = 5060.0
+meanMaxOutput = 1698.4333333333336
+sdMaxOutput = 1379.4539870150315
+Statistical power plant data for SchwabenShape/May2012-2000KW/schwaben.2012.05.2000kw.solar.shp:
+number = 1201
+minMaxOutput = 0.03142857142857143
+maxMaxOutput = 15698.964285714286
+meanMaxOutput = 3409.5675627453315
+sdMaxOutput = 4316.90423926981
+Statistical power plant data for SchwabenShape/May2012-2000KW/schwaben.2012.05.2000kw.biomasse.shp:
+number = 494
+minMaxOutput = 3.0
+maxMaxOutput = 37374.0
+meanMaxOutput = 853.151821862348
+sdMaxOutput = 2840.699779374486
+Statistical power plant data for SchwabenShape/May2012-2000KW/schwaben.2012.05.2000kw.gas.shp:
+number = 21
+minMaxOutput = 35.0
+maxMaxOutput = 20757.0
+meanMaxOutput = 1421.6666666666667
+sdMaxOutput = 4521.354369360283
+
+May2012-1000KW:
+Statistical power plant data for SchwabenShape/May2012-1000KW/schwaben.2012.05.1000kw.wasser.shp:
+number = 207
+minMaxOutput = 4.0
+maxMaxOutput = 84945.0
+meanMaxOutput = 1987.1352657004832
+sdMaxOutput = 7479.917713520105
+Statistical power plant data for SchwabenShape/May2012-1000KW/schwaben.2012.05.1000kw.wind.shp:
+number = 27
+minMaxOutput = 4.4
+maxMaxOutput = 8965.0
+meanMaxOutput = 2075.862962962963
+sdMaxOutput = 2350.6561814078395
+Statistical power plant data for SchwabenShape/May2012-1000KW/schwaben.2012.05.1000kw.solar.shp:
+number = 590
+minMaxOutput = 0.5185714285714286
+maxMaxOutput = 15629.82142857143
+meanMaxOutput = 3759.5828765133174
+sdMaxOutput = 3339.311048785349
+Statistical power plant data for SchwabenShape/May2012-1000KW/schwaben.2012.05.1000kw.biomasse.shp:
+number = 246
+minMaxOutput = 3.0
+maxMaxOutput = 182145.0
+meanMaxOutput = 3844.666666666668
+sdMaxOutput = 17495.83041647078
+Statistical power plant data for SchwabenShape/May2012-1000KW/schwaben.2012.05.1000kw.gas.shp:
+number = 21
+minMaxOutput = 35.0
+maxMaxOutput = 20757.0
+meanMaxOutput = 1421.6666666666665
+sdMaxOutput = 4521.354369360284
+
+May2012-500KW:
+Statistical power plant data for SchwabenShape/May2012-500KW/schwaben_2012_05_500kw_wasser.shp:
+number = 69
+minMaxOutput = 22.0
+maxMaxOutput = 144535.0
+meanMaxOutput = 11541.797101449272
+sdMaxOutput = 26802.124718551982
+Statistical power plant data for SchwabenShape/May2012-500KW/schwaben_2012_05_500kw_wind.shp:
+number = 27
+minMaxOutput = 4.4
+maxMaxOutput = 8965.0
+meanMaxOutput = 2075.862962962963
+sdMaxOutput = 2350.6561814078395
+Statistical power plant data for SchwabenShape/May2012-500KW/schwaben_2012_05_500kw_solar.shp:
+number = 323
+minMaxOutput = 5.0442857142857145
+maxMaxOutput = 15597.827142857144
+meanMaxOutput = 4579.699327731093
+sdMaxOutput = 3882.451540318104
+Statistical power plant data for SchwabenShape/May2012-500KW/schwaben_2012_05_500kw_biomasse.shp:
+number = 83
+minMaxOutput = 372.0
+maxMaxOutput = 367376.0
+meanMaxOutput = 17317.469879518063
+sdMaxOutput = 47479.14622651161
+Statistical power plant data for SchwabenShape/May2012-500KW/schwaben_2012_05_500kw_gas.shp:
+number = 21
+minMaxOutput = 35.0
+maxMaxOutput = 20757.0
+meanMaxOutput = 1421.6666666666665
+sdMaxOutput = 4521.354369360283

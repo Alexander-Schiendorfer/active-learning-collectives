@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Specification-Title: CPLEX OPTIMIZATION STUDIO Java API
+Specification-Version: 12.4
+Specification-Vendor: IBM
+Implementation-Title: CPLEX OPTIMIZATION STUDIO Java API
+Implementation-Version: 12.4p0
+Implementation-Vendor: IBM

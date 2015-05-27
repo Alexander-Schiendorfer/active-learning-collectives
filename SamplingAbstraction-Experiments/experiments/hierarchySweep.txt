@@ -1,0 +1,3 @@
+plantsPerAvpp;ppAvpp;5 10 15 20 25 30 35 40 45 50
+avppsPerAvpp;avppAvpp;5 10 15 20
+countPlants;cp;50 200 500

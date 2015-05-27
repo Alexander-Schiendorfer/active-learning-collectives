@@ -1,0 +1,148 @@
+ ---------------------------------------------- Analyzing ...  600  plants
+pp5Avpp5  compared to  pp5Avpp10
+pp5Avpp5  compared to  pp5Avpp15
+    insignficant  time: t:  [-2.25393846]  prob:  [ 0.02507012]
+pp5Avpp5  compared to  pp15Avpp5
+pp5Avpp5  compared to  pp15Avpp10
+pp5Avpp5  compared to  pp15Avpp15
+pp5Avpp5  compared to  pp35Avpp5
+pp5Avpp5  compared to  pp35Avpp10
+pp5Avpp5  compared to  pp35Avpp15
+pp5Avpp10  compared to  pp5Avpp15
+    insignficant  costs: t:  [-1.12602488]  prob:  [ 0.26123908]
+pp5Avpp10  compared to  pp15Avpp5
+pp5Avpp10  compared to  pp15Avpp10
+pp5Avpp10  compared to  pp15Avpp15
+pp5Avpp10  compared to  pp35Avpp5
+pp5Avpp10  compared to  pp35Avpp10
+pp5Avpp10  compared to  pp35Avpp15
+pp5Avpp15  compared to  pp15Avpp5
+pp5Avpp15  compared to  pp15Avpp10
+pp5Avpp15  compared to  pp15Avpp15
+pp5Avpp15  compared to  pp35Avpp5
+pp5Avpp15  compared to  pp35Avpp10
+pp5Avpp15  compared to  pp35Avpp15
+pp15Avpp5  compared to  pp15Avpp10
+    insignficant  costs: t:  [ 2.02744428]  prob:  [ 0.04368221]
+pp15Avpp5  compared to  pp15Avpp15
+    insignficant  costs: t:  [-0.71624161]  prob:  [ 0.47451336]
+pp15Avpp5  compared to  pp35Avpp5
+pp15Avpp5  compared to  pp35Avpp10
+pp15Avpp5  compared to  pp35Avpp15
+pp15Avpp10  compared to  pp15Avpp15
+pp15Avpp10  compared to  pp35Avpp5
+    insignficant  costs: t:  [ 2.41094425]  prob:  [ 0.01663631]
+pp15Avpp10  compared to  pp35Avpp10
+pp15Avpp10  compared to  pp35Avpp15
+pp15Avpp15  compared to  pp35Avpp5
+pp15Avpp15  compared to  pp35Avpp10
+pp15Avpp15  compared to  pp35Avpp15
+pp35Avpp5  compared to  pp35Avpp10
+    insignficant  costs: t:  [ 1.69036838]  prob:  [ 0.09220891]
+pp35Avpp5  compared to  pp35Avpp15
+    insignficant  costs: t:  [ 1.78411855]  prob:  [ 0.07562204]
+pp35Avpp10  compared to  pp35Avpp15
+    insignficant  time: t:  [-0.24186309]  prob:  [ 0.80908532]
+    insignficant  costs: t:  [ 1.24975899]  prob:  [ 0.21256098]
+---------------------------------------
+ ---------------------------------------------- Analyzing ...  700  plants
+pp5Avpp5  compared to  pp5Avpp10
+pp5Avpp5  compared to  pp5Avpp15
+pp5Avpp5  compared to  pp15Avpp5
+    insignficant  time: t:  [ 0.52843785]  prob:  [ 0.59766614]
+pp5Avpp5  compared to  pp15Avpp10
+pp5Avpp5  compared to  pp15Avpp15
+pp5Avpp5  compared to  pp35Avpp5
+pp5Avpp5  compared to  pp35Avpp10
+pp5Avpp5  compared to  pp35Avpp15
+    insignficant  time: t:  [ 1.01899029]  prob:  [ 0.30919661]
+pp5Avpp10  compared to  pp5Avpp15
+    insignficant  costs: t:  [ 0.37904453]  prob:  [ 0.70497782]
+pp5Avpp10  compared to  pp15Avpp5
+pp5Avpp10  compared to  pp15Avpp10
+pp5Avpp10  compared to  pp15Avpp15
+pp5Avpp10  compared to  pp35Avpp5
+pp5Avpp10  compared to  pp35Avpp10
+pp5Avpp10  compared to  pp35Avpp15
+pp5Avpp15  compared to  pp15Avpp5
+    insignficant  time: t:  [ 1.94075149]  prob:  [ 0.05341705]
+pp5Avpp15  compared to  pp15Avpp10
+pp5Avpp15  compared to  pp15Avpp15
+pp5Avpp15  compared to  pp35Avpp5
+pp5Avpp15  compared to  pp35Avpp10
+pp5Avpp15  compared to  pp35Avpp15
+    insignficant  time: t:  [ 1.33309138]  prob:  [ 0.18372021]
+pp15Avpp5  compared to  pp15Avpp10
+pp15Avpp5  compared to  pp15Avpp15
+    insignficant  costs: t:  [ 2.50050833]  prob:  [ 0.01304522]
+pp15Avpp5  compared to  pp35Avpp5
+pp15Avpp5  compared to  pp35Avpp10
+pp15Avpp5  compared to  pp35Avpp15
+    insignficant  time: t:  [ 0.88132753]  prob:  [ 0.37899049]
+pp15Avpp10  compared to  pp15Avpp15
+    insignficant  costs: t:  [-0.50357493]  prob:  [ 0.61500532]
+pp15Avpp10  compared to  pp35Avpp5
+pp15Avpp10  compared to  pp35Avpp10
+    insignficant  costs: t:  [ 1.98849728]  prob:  [ 0.04785147]
+pp15Avpp10  compared to  pp35Avpp15
+    insignficant  time: t:  [-2.2011082]  prob:  [ 0.02864645]
+pp15Avpp15  compared to  pp35Avpp5
+pp15Avpp15  compared to  pp35Avpp10
+    insignficant  costs: t:  [ 2.4416778]  prob:  [ 0.01531606]
+pp15Avpp15  compared to  pp35Avpp15
+    insignficant  time: t:  [-1.69058973]  prob:  [ 0.09216653]
+pp35Avpp5  compared to  pp35Avpp10
+pp35Avpp5  compared to  pp35Avpp15
+    insignficant  costs: t:  [ 0.08095142]  prob:  [ 0.93554562]
+pp35Avpp10  compared to  pp35Avpp15
+---------------------------------------
+ ---------------------------------------------- Analyzing ...  800  plants
+pp5Avpp5  compared to  pp5Avpp10
+pp5Avpp5  compared to  pp5Avpp15
+pp5Avpp5  compared to  pp15Avpp5
+    insignficant  costs: t:  [ 1.6073382]  prob:  [ 0.10924747]
+pp5Avpp5  compared to  pp15Avpp10
+pp5Avpp5  compared to  pp15Avpp15
+pp5Avpp5  compared to  pp35Avpp5
+pp5Avpp5  compared to  pp35Avpp10
+pp5Avpp5  compared to  pp35Avpp15
+pp5Avpp10  compared to  pp5Avpp15
+    insignficant  costs: t:  [-0.84208106]  prob:  [ 0.40055063]
+pp5Avpp10  compared to  pp15Avpp5
+    insignficant  costs: t:  [-1.97758972]  prob:  [ 0.04907774]
+pp5Avpp10  compared to  pp15Avpp10
+pp5Avpp10  compared to  pp15Avpp15
+pp5Avpp10  compared to  pp35Avpp5
+pp5Avpp10  compared to  pp35Avpp10
+pp5Avpp10  compared to  pp35Avpp15
+pp5Avpp15  compared to  pp15Avpp5
+    insignficant  costs: t:  [-1.88793505]  prob:  [ 0.06019738]
+pp5Avpp15  compared to  pp15Avpp10
+pp5Avpp15  compared to  pp15Avpp15
+pp5Avpp15  compared to  pp35Avpp5
+pp5Avpp15  compared to  pp35Avpp10
+pp5Avpp15  compared to  pp35Avpp15
+pp15Avpp5  compared to  pp15Avpp10
+pp15Avpp5  compared to  pp15Avpp15
+    insignficant  time: t:  [-2.27692014]  prob:  [ 0.02363995]
+pp15Avpp5  compared to  pp35Avpp5
+pp15Avpp5  compared to  pp35Avpp10
+pp15Avpp5  compared to  pp35Avpp15
+    insignficant  time: t:  [ 0.45451245]  prob:  [ 0.64985601]
+pp15Avpp10  compared to  pp15Avpp15
+pp15Avpp10  compared to  pp35Avpp5
+pp15Avpp10  compared to  pp35Avpp10
+pp15Avpp10  compared to  pp35Avpp15
+    insignficant  time: t:  [-0.1487121]  prob:  [ 0.88190118]
+    insignficant  costs: t:  [ 1.84577894]  prob:  [ 0.06611137]
+pp15Avpp15  compared to  pp35Avpp5
+    insignficant  costs: t:  [-0.02380868]  prob:  [ 0.98102429]
+pp15Avpp15  compared to  pp35Avpp10
+    insignficant  costs: t:  [-0.35501593]  prob:  [ 0.72287818]
+pp15Avpp15  compared to  pp35Avpp15
+    insignficant  time: t:  [ 0.7990912]  prob:  [ 0.4249991]
+pp35Avpp5  compared to  pp35Avpp10
+    insignficant  costs: t:  [-0.37594342]  prob:  [ 0.70727906]
+pp35Avpp5  compared to  pp35Avpp15
+pp35Avpp10  compared to  pp35Avpp15
+---------------------------------------

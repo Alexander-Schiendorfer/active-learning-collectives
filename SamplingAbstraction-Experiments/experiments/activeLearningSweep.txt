@@ -1,0 +1,1 @@
+useStaticSampling;statSamp;0 1

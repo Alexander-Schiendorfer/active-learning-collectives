@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- log levels: TRACE, DEBUG, INFO, WARN, ERROR, FATAL -->
+
+<!-- status: the level of internal log4j events that should be logged to the console -->
+<!-- packages: the packages to scan for plugins, i.e., own written classes to use -->
+<configuration status="warn" packages="utilities">
+
+	<!-- ================== -->
+	<!-- logger definitions -->
+	<!-- ================== -->
+	
+	<appenders>
+
+		<!-- log to console -->
+		<Console name="Console" ignoreExceptions="false" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%-5level] [%logger{1}] - %msg%n"/>
+			<!-- filters -->
+			<filters>
+				<!-- valid types: ACCEPT, NEUTRAL, DENY -->
+				<ThresholdFilter level="trace" onMatch="NEUTRAL" onMismatch="DENY"/> <!-- definitely deny all levels below the given threshold; matching levels are passed to the following filters -->
+				<MarkerFilter marker="SYSTEM" onMatch="ACCEPT" onMismatch="NEUTRAL"/> <!-- filter for important system events; should normally be accepted in any case -->
+				<!-- set one of the following filters to DENY if only matching logs should be shown (attention: order is important! After the first DENY nothing will be shown) -->
+				<MarkerFilter marker="HiSPADA" onMatch="ACCEPT" onMismatch="NEUTRAL"/>				
+			</filters>
+		</Console>
+
+		<!-- log to file -->
+		<!--RollingFile name="File" fileName="logs/TEG-Simulation.log" filePattern="logs/TEG-Simulation-%d{yyyy-MM-dd}.log" ignoreExceptions="false">
+			<PatternLayout pattern="%d{dd MMM yyyy HH:mm:ss.SSS} [%-5level] [%logger] - %msg%n"/>
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1" />
+			</Policies>
+			<MaxNumberOfFilesRolloverStrategy number="7" />
+			<ThresholdFilter level="WARN"/>
+		</RollingFile-->
+	</appenders>
+
+
+
+	<!-- ======================= -->
+	<!-- specific log thresholds -->
+	<!-- ======================= -->
+	<loggers>
+	
+		<!-- ================= -->
+		<!-- Class Hierarchies -->
+		<!-- ================= -->
+
+		<!-- agents -->
+		<!-- note that loggers of agents are named according to a type hierarchy beginning with the class Agent and ending with the class of the regarded agent -->
+		<logger name="Agent" level="info" />
+		<logger name="Agent.GUI" level="info" />
+		<logger name="Agent.InternalCalendar" level="info" />
+		<logger name="Agent.SystemModelStatisticalDataAgent" level="info" />
+		<logger name="Agent.TrustAgent.GenericPowerPlant" level="info" />
+		<logger name="Agent.TrustAgent.GenericPowerPlant.AvppAgent" level="info" />
+		<logger name="Agent.TrustAgent.GenericPowerPlant.PhysicalPowerPlant.DeterministicPowerPlant.ArduinoMaltFactory" level="info" />
+		<logger name="Agent.TrustAgent.GenericPowerPlant.PhysicalPowerPlant.StochasticPowerPlant.ArduinoMaltFactory" level="info" />
+		<logger name="Agent.TrustAgent.GenericPowerPlant.PhysicalPowerPlant.StochasticPowerPlant.SolarPowerPlant.ArduinoSolarPowerPlant" level="info" />
+		<logger name="Agent.TrustAgent.GenericPowerPlant.PhysicalPowerPlant.StochasticPowerPlant.WindPowerPlant.ArduinoWindPowerPlant" level="info" />
+		<logger name="Agent.TrustAgent.TransmissionAgent" level="info" />
+
+		<!-- agent components -->
+		<!-- note that loggers of agent components are named according to a type hierarchy beginning with the class AgentComponent and ending with the class of the regarded agent component -->
+		<logger name="AgentComponent" level="info" />
+		<logger name="AgentComponent.AVPPFormationHandler" level="info" />
+		<logger name="AgentComponent.AVPPFormationHandler.PSOSPHandler" level="info" />
+		<logger name="AgentComponent.ControllingAgentComponent" level="info" />
+		<logger name="AgentComponent.DefaultTimeProvider.TimeProviderICBased" level="info" />
+		<logger name="AgentComponent.HierarchicalPartitioningControl" level="info" />
+		<logger name="AgentComponent.ScheduledAgentComponent.SchedulingHandler" level="info" />
+<logger name="AgentComponent.ScheduledAgentComponent.SimpleGenericScheduleApplier" level="info" />
+		<logger name="AgentComponent.ControllingAgentComponent" level="info" />
+		
+		<!-- schedule application -->
+		<logger name="energygrid.scheduleapplication" level="warn" />
+		<logger name="AgentComponent.RmClient" level="warn" />
+		<logger name="AgentComponent.RmMaster" level="warn" />
+		<logger name="AgentComponent.TargetDeterminationMechanism" level="warn" />
+		<logger name="AgentComponent.InterRmAlgorithm" level="warn" />
+		<logger name="AgentComponent.ScheduledAgentComponent.AbstractScheduleApplier" level="warn" />
+		
+		<!-- ======== -->
+		<!-- Packages -->
+		<!-- ======== -->
+		
+		<!-- TBST-Scheduling -->
+		<logger name="energygrid.powerplantscheduling.trucaos.tbst" level="info"/>
+		
+		<!-- AgentBehavior -->
+		<logger name="agentbehavior" level="info" />
+		
+		<!-- energygrid -->
+		<logger name="energygrid.arduinosim" level="info" />
+
+		<!-- MASConcepts -->
+		<logger name="masconcepts.agent.scheduler" level="info" />
+		<logger name="masconcepts.util" level="info" />
+		
+		<!-- OC-Trust GUI  -->
+		<logger name="gui" level="info" />
+
+		<!-- PSOSP  -->
+		<logger name="psosp.algorithm" level="info" />
+		<logger name="psosp.particle" level="info" />
+		<logger name="psosp.particle.ParticleMoveThread" level="info" />
+		
+		<!-- TEGRepastGUI -->
+		<logger name="tegrepastgui" level="info" />
+
+		<!-- TEMReadyInfrastructure -->
+		<logger name="temreadyinfrastructure.agent.scheduling" level="info" />
+		
+		<!-- Utilities -->
+		<logger name="utilities.parameters" level="info" />
+		
+		<!-- root threshold -->
+		<root level="info">
+			<appender-ref ref="Console" />
+			<!--appender-ref ref="File" /-->
+		</root>
+
+	</loggers>
+</configuration>

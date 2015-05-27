@@ -1,0 +1,32 @@
+totalGeneralHoles = {
+ 
+}
+;
+totalGeneralBounds =  {
+ <1.0499999999999998,1086.3659038555995> 
+}
+;
+
+maxBps = 2;
+ControllablePlant = #[
+HYDRO_1 : 
+    #< slopesPrice : [16.06, 16.06, 16.06], 
+       breakpoints : [0.0, 0.0], 
+       numBps : 2, 
+       firstCostFunctionInput : 0.0, 
+       firstCostFunctionOutput : 0.0    >#
+,
+BIOFUEL_1 : 
+    #< slopesPrice : [13.48, 13.48, 13.48], 
+       breakpoints : [1.0499999999999998, 1.0499999999999998], 
+       numBps : 2, 
+       firstCostFunctionInput : 1.0499999999999998, 
+       firstCostFunctionOutput : 14.153999999999996    >#
+,
+HYDRO_2 : 
+    #< slopesPrice : [18.4, 18.4, 18.4], 
+       breakpoints : [0.0, 0.0], 
+       numBps : 2, 
+       firstCostFunctionInput : 0.0, 
+       firstCostFunctionOutput : 0.0    >#
+]#;

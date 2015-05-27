@@ -1,0 +1,2 @@
+plantsPerAvpp;ppAvpp;5 10
+avppsPerAvpp;avppAvpp;5 10
